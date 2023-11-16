@@ -1,24 +1,34 @@
 html{
     background-color: white;
 }
-/*Navigasjon*/
 
-
-
-header nav{
-    list-style: none;
-    text-align: right;
+*{
+    box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*Navigasjon*/
+
+header nav{
+    margin-right: 20px;
+    text-align: right;
+    padding-top: 40px;
+}
 
 header nav a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
+    font-weight: 600;
 
 }
 .contact{
     padding: 10px;
-    background-color: yellow;
+    background-color: #e6bd43;
     color: black;
 }
 /*Logo*/
@@ -37,7 +47,7 @@ header nav a{
 
 /*section 1 index*/
 .section1{
-    margin-top: 90px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     width: 1300px;
@@ -46,13 +56,87 @@ header nav a{
     background-color: lightgrey;
 }
 
+.read-more{
+    margin: auto;
+    text-align: center;
+    width: 220px;
+    padding: 5px;
+    background-color: #e6bd43;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
 .section1 h1{
     padding-top: 50px;
+    font-size: 40px;
 }
 /*Første section index slutt*/
 
 /*Section 2 index*/
 .section2{
     text-align: center;
+    margin-top: 40px;
 }
+/*Section 2 slutt*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 110px;
+    background-color: #252525
+}
+
+footer nav{
+    margin-right: 20px;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.logo-footer{
+    float: left;
+}
+
+.logo-footer img{
+    height: 90px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+footer nav a{
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li{
+    list-style: none;
+}
+
 
