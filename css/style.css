@@ -36,7 +36,6 @@ header nav a{
     float: left;
     margin-left: 50px;
 }
-
 .logo img{
     width: 100px;
     height: 100px;
@@ -45,15 +44,16 @@ header nav a{
 
 /*Navigasjon slutt*/
 
-/*section 1 index*/
-.section1{
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1300px;
-    height: 250px;
-    text-align: center;
-    background-color: lightgrey;
+/*Header nederste del*/
+.article1{
+
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 250px;
+text-align: center;
+background-color: lightgrey;
 }
 
 .read-more{
@@ -71,7 +71,7 @@ header nav a{
     padding-top: 50px;
     font-size: 40px;
 }
-/*Første section index slutt*/
+/*HEADER SLUTT*/
 
 /*Section 2 index*/
 .section2{
@@ -95,16 +95,38 @@ header nav a{
 
 
 
+/*FOOTER*/
 
+footer article{
+    text-align: center;
+    padding-top: 20px;
+}
 
-
+footer article button{
+    border: 0;
+    padding: 10px;
+    background-color: #e6bd43;
+    font-weight: 500;
+}
+footer article input{
+    border: 0;
+    padding: 10px;
+}
 
 footer{
-    height: 110px;
-    background-color: #252525
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(
+      to top,
+      #252525 0%,
+      #252525 50%,
+      lightgrey 50%,
+      lightgrey 100%
+    );
 }
 
 footer nav{
+    padding-top: 150px;
     margin-right: 20px;
 }
 
@@ -116,6 +138,7 @@ footer p{
 }
 
 .logo-footer{
+    padding-top: 150px;
     float: left;
 }
 
@@ -140,3 +163,4 @@ footer nav ul li{
 }
 
 
+/*FOOTER SLUTT*/
