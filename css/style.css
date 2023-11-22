@@ -7,12 +7,6 @@ body{
 }
 /*Navigasjon header*/
 
-header p{
-    width: 500px;
-    padding-bottom: 30px;
-    padding-top: 20px;
-}
-
 header nav ul{
     list-style: none;
     float: right;
@@ -69,7 +63,7 @@ header article a{
 /*Section 1 index*/
 .section1{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 h1{
     margin: 0;
@@ -90,6 +84,8 @@ width: 100%;
     margin: auto;
     margin-bottom: 20px;  
 }
+
+
 
 /*Section 1 slutt*/
 
@@ -153,26 +149,6 @@ margin-left: 450px;
     margin-left: 180px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h3{
     text-align: center;
 }
@@ -189,24 +165,92 @@ main section article a{
 
 
 
+/*Portfolioside*/
 
+.article1-portfolio{
+    height: 200px;
+    text-align: center;
+    background-color: lightgrey;
+    padding-top: 10px;
+    width: 100%;
+}
+.article1-portfolio h1{
+    padding-top: 60px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.article2-portfolio{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid;
+    color: #e6bd43;
+}
+.article2-portfolio h2{
+    color: black;
+}
+.article3-portfolio ul{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.article3-portfolio ul li{
+    margin-left: 20px;
+    border: 1px solid;
+    padding: 5px;
+}
+.branding{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid;
+    color: #e6bd43;
+}
+.branding h2{
+    color: black;
+}
+.branding h3{
+    color: black;
+    border: 0;
+}
+.portfolio-img1{
+    display: inline-flex;
+}
+.portfolio-img1 article img{
+    margin-left: 32px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+}
+.branding3 h3{
+    text-align: left;
+    margin-left: 100px;
+}
+.branding3 article img{
+    margin-left: 32px;
+    width: 350px;
+    height: 350px;
+}
+.development{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid;
+    color: #e6bd43;
+}
+.development h2{
+    color: black;
+}
+.portfolio-img2{
+    display: inline-flex;
+}
+.portfolio-img2 article img{
+    margin-left: 32px;
+    margin-top: 20px;
+    height: 350px;
+    width: 350px;
+}
 
 
 
@@ -232,7 +276,6 @@ footer article input{
     padding: 10px;
     margin-bottom: 20px;
 }
-
 
 footer nav{
     display: flex;

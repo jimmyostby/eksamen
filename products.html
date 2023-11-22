@@ -2,76 +2,121 @@
 <html lang="nn">
 
 <head>
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-
+    <title>Portfolio</title>
+    <!--Linker til fontawsome og Icon-mappe er tatt fra koden skrevet i Oblig4-->
+    <link href="css/icon/css/fontawesome.css" rel="stylesheet">
+    <link href="css/icon/css/brands.css" rel="stylesheet">
+    <link href="css/icon/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-
 <body>
-    <header>
-        <header class="default-flex">
+     <header>
             <nav>
+                <span><a class="logo" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a></span>
                 <ul>
-                    <li><a class="logo" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a></li>
                     <li><a href="index.html" class="home">Home</a></li>
                     <li><a href="products.html">Portfolio</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="about.html" class="contact">Contact</a></li>
                 </ul>
             </nav>
-            <article class="article1-index">
-                <h1>Compeling headline</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit lectus, iaculis ut lacus eu, blandit ullamcorper felis.<br> Duis sit amet quam a turpis venenatis rhoncus</p>
-                <a href="#services"><p class="read-more">Read more about our services</p></a>
-            </article>
     </header>
 <main>
-    <section>
-        <h1>Portfolio</h1>
-        <article>
-        Explore previous jobs
-        </article>
-        <article>
-            Branding Design Development
+    <section class="section1">
+        <article class="article1-portfolio">
+            <h1>Portfolio</h1>
+            <!--Kode til linking på samme side er hentet fra w3schools.com, se referanseliste punkt 1.-->
         </article>
     </section>
     <section>
+        <article class="article2-portfolio">
+        <h2>Explore previous jobs</h2>
+        </article>
+        <article class="article3-portfolio">
+            <ul>
+                <li>Branding</li>
+                <li>Design</li>
+                <li>Development</li>
+            </ul>
+        </article>
+    </section>
+    <section class="branding">
         <h2>Branding</h2>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
     </section>
-    <section>
+    <section class="portfolio-img1">
+        <article>
+        <!--Bilder brukt på denne siden er hentet fra placehold.co, se punkt 2 i referanselisten.-->
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+    </section>
+    <section class="branding3">
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+    </section>
+    <section class="branding">
         <h2>Design</h2>
-        <article></article>
-        <article></article>
-        <article></article>
     </section>
-    <section>
+    <section class="portfolio-img1">
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+    </section>
+    <section class="development">
         <h2>Development</h2>
-        <article></article>
-        <article></article>
     </section>
-
-
-
-
+    <section class="portfolio-img2">
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+        <article>
+            <img src="https://placehold.co/400" alt="Placeholderbilde 400x400px, grå.">
+            <h3>Et harum quidem</h3>
+        </article>
+    </section>
 </main>
 <footer>
-    <article>
+    <article class="footer1">
         <h4>Sign up for our newsletter</h4>
+        <!--Kode for input og button er hentet fra w3schools.com, se referanseliste punkt 2.-->
         <input type="email" id="email" name="email">
         <button type="button">Sign me up</button>
     </article>
-    <a class="logo-footer" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a>
     <nav>
-        <a href="https://www.facebook.com">Facebook</a>
-        <a href="https://www.instagram.com">Instagram</a>
-        <a href="https://no.linkedin.com">Linkdin</a>   
+        <article class="footer2">
+        <!--Link til sosiale medier er hentet fra w3schools.com, se referanseliste punkt 3.-->
+        <a id="logo-footer" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a>
+        <p>Company Copyright 2023</p>
+        <!--Kode for bruk av ikoner er hentet fra fontawesome.com, se referanseliste punkt 4.-->
+        <ul>
+        <li><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
+        <li><a href="https://no.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+        </article>
     </nav>
-    <p>Company Copyright 2023</p>   
 </footer>
 </body>
 </html>
