@@ -253,6 +253,44 @@ main section article a{
 }
 
 
+.clients{
+    background-color: #e6bd43;
+    height: 300px;
+}
+.clients h3{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.clients ul{
+    list-style: none;
+    display: flex;
+    margin-left: 450px;
+}
+.clients ul li{
+    margin-left: 20px;
+}
+.clients ul li img{
+    height: 100px;
+}
+
+
+
+
+
+
+.about-services{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 
@@ -334,6 +372,15 @@ footer nav ul{
 .footer2{
     background-color: black;
 }
+
+.footer-about{
+    padding-top: 0;
+}
+.footer-about img{
+    margin-left: 0;
+    width: 100%;
+}
+
 
 /*FOOTER SLUTT*/
 

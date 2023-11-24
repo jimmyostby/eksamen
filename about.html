@@ -9,51 +9,62 @@
 </head>
 <body>
     <header>
-        <header class="default-flex">
+        <header>
             <nav>
+                <span><a class="logo" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a></span>
                 <ul>
-                    <li><a class="logo" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a></li>
                     <li><a href="index.html" class="home">Home</a></li>
                     <li><a href="products.html">Portfolio</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="about.html" class="contact">Contact</a></li>
                 </ul>
             </nav>
-            <article class="article1-index">
-                <h1>Compeling headline</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit lectus, iaculis ut lacus eu, blandit ullamcorper felis.<br> Duis sit amet quam a turpis venenatis rhoncus</p>
-                <a href="#services"><p class="read-more">Read more about our services</p></a>
-            </article>
     </header>
 <main>
+    <section class="section1">
+        <article class="article1-portfolio">
+            <h1>Company name</h1>
+            <!--Kode til linking på samme side er hentet fra w3schools.com, se referanseliste punkt 1.-->
+        </article>
+    </section>
+    <section>
+        <article class="article3-index">
+            <h3 class="about-services" id="services">Our services</h3>
+            <ul>
+               <li><a href="#">Branding</a><p>Donec accumsan eget lorem eu tempor. In ipsum tortor</p></li>
+                <li><a href="#">Design</a><p>Aliquam at laoreet felis, non convallis velit. Quisque nulla.</p></li>
+                <li><a href="#">Development</a><p>Cras imperdiet lectus eu odio fermentum, sit amet fringilla.</p></li>
+                <li><a href="#">Branding</a><p>Sed et luctus ligula. Aenean nec enim in ipsum tincidunt.</p></li>
+            </ul>
+        </article>
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <section class="clients">
+        <h3>Some of our clients</h3>
+        <ul>
+            <li><img src="img/logo1.png" alt="Bilde av firmalogo"></li>
+            <li><img src="img/logo2.png" alt="Bilde av firmalogo"></li>
+            <li><img src="img/logo3.png" alt="Bilde av firmalogo"></li>
+        </ul>
+    </section>
 </main>
 <footer>
-    <article>
-        <h4>Sign up for our newsletter</h4>
-        <input type="email" id="email" name="email">
-        <button type="button">Sign me up</button>
+    <article class="footer-about">
+        <img src="img/Skjermbilde 2023-11-24 kl. 15.10.03.png" alt="Bilde av google maps. Høgskolen i Østfold sin adresse">
     </article>
-    <a class="logo-footer" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a>
     <nav>
-        <a href="https://www.facebook.com">Facebook</a>
-        <a href="https://www.instagram.com">Instagram</a>
-        <a href="https://no.linkedin.com">Linkdin</a>   
-    </nav>
-    <p>Company Copyright 2023</p>   
+        <article class="footer2">
+            <!--Link til sosiale medier er hentet fra w3schools.com, se referanseliste punkt 3.-->
+            <a id="logo-footer" href="index.html"><img src="img/logo1.png" alt="Bilde av nettsidens logo, hurtigtast."></a>
+            <p>Company Copyright 2023</p>
+            <!--Kode for bruk av ikoner er hentet fra fontawesome.com, se referanseliste punkt 4.-->
+            <ul>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://no.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </article>
+    </nav> 
 </footer>
 </body>
 </html>
