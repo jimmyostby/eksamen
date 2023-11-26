@@ -73,7 +73,7 @@ h1{
 .article1-index{
 height: auto;
 text-align: center;
-background-color: lightgrey;
+background-color: #efefef;
 padding-bottom: 10px;
 padding-top: 10px;
 width: 100%;
@@ -170,7 +170,7 @@ main section article a{
 .article1-portfolio{
     height: 200px;
     text-align: center;
-    background-color: lightgrey;
+    background-color: #efefef;
     padding-top: 10px;
     width: 100%;
 }
@@ -253,6 +253,7 @@ main section article a{
 }
 
 
+
 .clients{
     background-color: #e6bd43;
     height: 300px;
@@ -273,6 +274,90 @@ main section article a{
 .clients ul li img{
     height: 100px;
 }
+
+/*ABOUT*/
+/*Kontaktskjema-about*/
+.skjema{
+    background-color: #efefef;
+    padding-left: 100px;
+}
+.skjema h3{
+    font-size: 30px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin-top: 0;
+    
+}
+.skjema p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.skjema input{
+    border: 0;
+    width: 400px;
+    height: 20px;
+}
+
+#name{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#subject{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.skjema textarea{
+    height: 150px;
+    width: 400px;
+    border: 0;
+}
+.skjema button{
+    padding: 10px;
+    font-weight: 600;
+    background-color: #e6bd43;
+    border: 0;
+    margin-bottom: 30px;
+}
+.contact-information{
+    background-color: #efefef;
+    margin: 0;
+
+}
+.section4{
+    height: 400px;
+    background-color: lightgrey;
+}
+.section4 article{
+    padding: 20px;
+    width: 600px;
+    height: auto;
+    background-color: #efefef;
+    float: right;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.section4 article h2{
+    margin-top: 0;
+    font-weight: inherit;
+    font-size: 16px;
+}
+.company{
+    font-weight: 600;
+}
+.section4 article button{
+    padding: 10px;
+    font-weight: 600;
+    background-color: #e6bd43;
+    border: 0;
+}
+
+
+
+
 
 
 
@@ -366,7 +451,7 @@ footer nav ul{
 }
 
 .footer1{
-    background-color: #ddd;
+    background-color: #efefef;
 }
 
 .footer2{
