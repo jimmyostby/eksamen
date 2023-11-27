@@ -72,16 +72,16 @@ h1{
 }
 
 .section1 article{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .article1-index{
-
+margin-top: 20px;
 text-align: center;
 background-color: lightgray;
-padding-bottom: 100px;
-padding-top: 100px;
+padding-bottom: 50px;
+padding-top: 50px;
 width: 100%;
 }
 .article1-index h1{
@@ -349,7 +349,7 @@ main section article a{
 /*SKOLENS ADRESSE SLUTT*/
 
 .section4{
-    margin-top: 10px;
+    margin-top: 20px;
     height: 350px;
     background-color: lightgrey;
 }
