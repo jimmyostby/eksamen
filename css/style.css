@@ -66,19 +66,23 @@ header article a{
 /*Section 1 index*/
 .section1{
     text-align: center;
-    margin-top: 10px;
 }
 h1{
     margin: 0;
     font-size: 40px;
 }
 
+.section1 article{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .article1-index{
-height: 200px;
+
 text-align: center;
 background-color: lightgray;
-padding-bottom: 10px;
-padding-top: 10px;
+padding-bottom: 100px;
+padding-top: 100px;
 width: 100%;
 }
 .article1-index h1{
@@ -89,11 +93,9 @@ width: 100%;
     margin: auto;
     margin-bottom: 20px;  
 }
-
 /*Section 1 slutt*/
 
 /*Engagin subheading*/
-
 .section2{
 border: 2px solid;
 padding-bottom: 30px;
@@ -123,7 +125,6 @@ margin-left: 490px;
 }
 
 /*Engaging subheading SLUTT*/
-
 
 .article3-index{
     padding-top: 20px;
@@ -164,8 +165,6 @@ main section article a{
     color: black;
 }
 /*Article2 index SLUTT*/
-
-
 
 /*Portfolioside*/
 
@@ -261,7 +260,6 @@ main section article a{
     width: 350px;
 }
 
-
 .clients{
     background-color: #e6bd43;
     height: 300px;
@@ -334,8 +332,25 @@ main section article a{
 .contact-information{
     background-color: #efefef;
     margin: 0;
-
 }
+/*Skolens adresse*/
+.kontakt{
+    background-color: #efefef;
+}
+.kontaktinfo{
+    padding-left: 100px;
+    width: 250px;
+}
+.kontaktinfo h3{
+    text-align: left;
+}
+.kontaktinfo a{
+    text-decoration: underline;
+    color: blue;
+}
+/*SKOLENS ADRESSE SLUTT*/
+
+
 .section4{
     margin-top: 10px;
     height: 350px;
@@ -364,7 +379,6 @@ main section article a{
     background-color: #e6bd43;
     border: 0;
 }
-
 .about-services{
     text-align: center;
     font-size: 30px;
