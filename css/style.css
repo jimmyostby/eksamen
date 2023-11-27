@@ -13,7 +13,6 @@ header nav ul{
     margin-right: 20px;
 }
 
-
 header nav ul li{
     text-align: center;
 /*Kode for display:inline-block er hentet fra w3schools.com, se referanseliste CSS punkt 3.*/
@@ -292,8 +291,7 @@ main section article a{
     font-size: 30px;
     padding-right: 100px;
     padding-top: 50px;
-    margin-top: 0;
-    
+    margin-top: 0; 
 }
 .skjema p{
     font-size: 20px;
@@ -350,7 +348,6 @@ main section article a{
 }
 /*SKOLENS ADRESSE SLUTT*/
 
-
 .section4{
     margin-top: 10px;
     height: 350px;
@@ -383,7 +380,6 @@ main section article a{
     text-align: center;
     font-size: 30px;
 }
-
 
 /*FOOTER*/
 footer article{
